@@ -150,22 +150,26 @@ Step 6: Step 6: Go to the **Properties** tab and enable **Static website hosting
 
 **Error you might face and things to look for**
 You can check the error as right clicking and going to inspect inside console.
+
 🔴 403 Forbidden
-Add OPTIONS in CORS
-Click Deploy after changes
-Check API URL (path + stage must match)
+- Add OPTIONS in CORS
+- Click Deploy after changes
+- Check API URL (path + stage must match)
+
 🟠 400 Bad Request
-Field names must match (name vs firstName)
-Parse body → JSON.parse(event.body)
-Otherwise validation will fail
+- Field names must match (name vs firstName)
+- Parse body → JSON.parse(event.body)
+- Otherwise validation will fail
+
 🔥 500 Error (SES)
-Verify sender email in SES
-Replace dummy email (yourname@gmail.com)
-Make sure SES status = Verified
+- Verify sender email in SES
+- Replace dummy email (yourname@gmail.com)
+- Make sure SES status = Verified
+
 💥 500 Error (General)
-Use Node.js 18.x or 20.x
-File name & handler must match
-Use require OR set "type": "module"
-DynamoDB table name must match exactly
-IAM role needs PutItem permission
-Region must be correct
+- Use Node.js 18.x or 20.x
+- File name & handler must match
+- Use require OR set "type": "module"
+- DynamoDB table name must match exactly
+- IAM role needs PutItem permission
+- Region must be correct
