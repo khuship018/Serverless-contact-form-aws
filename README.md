@@ -145,7 +145,15 @@ The required policy is already provided in the repository—copy and paste it fr
 <img width="1529" height="651" alt="image" src="https://github.com/user-attachments/assets/8c55ec5e-8fbc-41b7-ad63-2db712199633" />
 
 Step 6: Step 6: Go to the **Properties** tab and enable **Static website hosting**.
-<img width="1900" height="922" alt="image" src="https://github.com/user-attachments/assets/59abca47-aba6-4155-83de-e136580a4631" />
+<img width="1900" height="922" alt="image" src="https://github.com/user-attachments/assets/59abca47-aba6-4155-83de-e136580a4631" /
+
+ Go to the S3 Static Website link and paste it in the browser and fill the form.
+<img width="1916" height="915" alt="image" src="https://github.com/user-attachments/assets/e1209b51-7f2b-477a-93e9-18f13808f899" />
+<img width="1913" height="914" alt="image" src="https://github.com/user-attachments/assets/78035177-69a0-4f86-90e1-25478bac52e7" />
+
+Go to DynamoDB and check all the forms received.
+<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/92955bc3-546d-498a-b71c-b6f2f985beea" />
+<img width="1098" height="738" alt="image" src="https://github.com/user-attachments/assets/58dc32fa-a3d7-42d7-a59b-be3f1d0fbb39" />
 
 
 **Error you might face and things to look for**
